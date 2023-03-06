@@ -2,15 +2,16 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Battery"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/Battery"
 
 
     android:layout_rowWeight="1"
 
     android:layout_columnWeight="1"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    android:background="#8003A9F4">
 
 
     <TextView
@@ -18,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:textColor="#CC5500"
         android:text="@string/battery_percentage"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -29,6 +31,7 @@
         android:id="@+id/currDateTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#CC5500"
         android:text="@string/current_date_and_time"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -43,17 +46,19 @@
         android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/baseline_battery_unknown_black_48dp"
+        android:src="@drawable/battery"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
 
     <TextView
         android:id="@+id/batteryStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:textColor="#CC5500"
         android:text="@string/battery_status"
         android:textSize="20sp"
         android:textStyle="bold"

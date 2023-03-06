@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -15,6 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="bottom|center"
+
+            android:background="#8003A9F4"
             android:foregroundGravity="bottom|center"
             app:srcCompat="@drawable/round_call_black_48dp_copy" />
     </androidx.cardview.widget.CardView>
@@ -22,6 +25,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#8003A9F4"
         android:gravity="bottom|center"
         android:orientation="vertical">
 
@@ -37,7 +41,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="phone" />
+                android:inputType="phone"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/btnBack"
@@ -45,6 +50,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="X"
+                android:backgroundTint="#ffffff"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -61,6 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="1"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -71,6 +78,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="2"
+                android:backgroundTint="#ffffff"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -79,6 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="3"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -95,6 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="4"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -104,6 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="5"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -113,6 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="6"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -129,6 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="7"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -138,6 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="8"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -147,6 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="9"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -163,6 +178,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="*"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -172,6 +188,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="0"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -181,6 +198,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="#"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -198,6 +216,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#ffffff"
                 android:text="Call"
                 android:textSize="20sp"
                 android:textStyle="bold" />
